@@ -47,18 +47,23 @@ h1 {
     border: none;
 }
 #googleLogin:hover {
-    background-color: cornflowerblue;
+    background-color: white;
+    color: black;
 }
 
 #facebookLogin{
     margin-top: 10px;
     width: 100%;
-    background-color: mediumblue;
+    background-color: darkblue;
     color: white;
     padding: 8px;
     border-radius: 5px;
     cursor: pointer;
     border: none;
+}
+
+#facebookLogin:hover {
+    background-color: mediumblue;
 }
 p {
     padding: 10px;
@@ -105,4 +110,8 @@ i {
 
 #login-others {
     padding-top: 50px;
+}
+
+.forgot-password {
+    padding-top: 5px;
 }
