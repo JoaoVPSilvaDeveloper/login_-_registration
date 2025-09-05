@@ -9,8 +9,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 50px;
-    font-size: xxx-large;
+    margin-bottom: 30px;
 }
 
 #app {
@@ -37,6 +36,30 @@ h1 {
     background-color: cornflowerblue;
 }
 
+#googleLogin {
+    margin-top: 10px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+#googleLogin:hover {
+    background-color: cornflowerblue;
+}
+
+#facebookLogin{
+    margin-top: 10px;
+    width: 100%;
+    background-color: mediumblue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
 p {
     padding: 10px;
     font-size: small;
@@ -78,4 +101,8 @@ i {
     border: 1px solid #cccccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+#login-others {
+    padding-top: 50px;
 }

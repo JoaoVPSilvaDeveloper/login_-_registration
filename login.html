@@ -13,12 +13,16 @@
 
         <div class="input-container">
             <i class="fa-solid fa-envelope"></i>
-            <input type="text" placeholder="Enter your email">
+            <label>
+                <input type="text" placeholder="Enter your email">
+            </label>
         </div>
 
         <div class="input-container">
             <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Enter your password">
+            <label>
+                <input type="password" placeholder="Enter your password">
+            </label>
         </div>
         <!--
         <label for="email">Email</label><i class="fa-solid fa-envelope"></i><input id="email" type="email" placeholder="Enter your email">
@@ -31,8 +35,14 @@
         </div>
 
         <div id="login-others">
-            <button>Google</button>
-            <button>facebook</button>
+            <button id="googleLogin">
+                <i style="color: white" class="fa-brands fa-google"></i>
+                Sign in with Google
+            </button>
+            <button id="facebookLogin">
+                <i style="color: white" class="fa-brands fa-facebook"></i>
+                Connect with Facebook
+            </button>
         </div>
 
     </form>
