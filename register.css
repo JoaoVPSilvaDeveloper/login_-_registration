@@ -2,17 +2,16 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: floralwhite;
     display: flex;
-    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
 h1 {
-    margin-bottom: 30px;
+
 }
 
-#appLogin {
+#appRegister {
     text-align: center;
     width: 300px;
     padding: 50px;
@@ -21,22 +20,8 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.submit_login {
-    margin-top: 10px;
-    width: 100%;
-    background-color: lightskyblue;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
-}
 
-.submit_login:hover {
-    background-color: cornflowerblue;
-}
-
-.googleLogin {
+#googleRegister {
     margin-top: 10px;
     width: 100%;
     background-color: dodgerblue;
@@ -46,12 +31,13 @@ h1 {
     cursor: pointer;
     border: none;
 }
-.googleLogin:hover {
+
+#googleRegister:hover {
     background-color: white;
     color: black;
 }
 
-.facebookLogin{
+#facebookRegister {
     margin-top: 10px;
     width: 100%;
     background-color: darkblue;
@@ -61,38 +47,17 @@ h1 {
     cursor: pointer;
     border: none;
 }
-
-.facebookLogin:hover {
+#facebookRegister:hover {
     background-color: white;
     color: black;
 }
-p {
-    padding: 10px;
-    font-size: small;
-    color: grey;
-}
 
-a {
-    padding: 5px;
-    font-size: small;
-    color: black;
-}
-
-a:hover {
-    color: cornflowerblue;
-    text-decoration: underline;
-}
-
-i {
-    margin-right: 5px;
-}
-
-.input-container-login {
+.input-box {
     position: relative;
     margin-bottom: 15px;
 }
 
-.input-container-login i {
+.input-box i {
     position: absolute;
     left: 10px;
     top: 50%;
@@ -100,7 +65,7 @@ i {
     color: lightskyblue;
 }
 
-.input-container-login input {
+.input-box input {
     width: 100%;
     padding: 10px 10px 10px 35px;
     border: 1px solid #cccccc;
@@ -108,11 +73,7 @@ i {
     box-sizing: border-box;
 }
 
-.login-others {
-    padding-top: 50px;
+#checkTermsAndConditions {
+    margin-top: 30px;
+    font-size: small;
 }
-
-.forgot-password {
-    padding-top: 5px;
-}
-
